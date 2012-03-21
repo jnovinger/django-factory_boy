@@ -4,7 +4,7 @@ When testing Django app, a common case is to create some data, then test app beh
 
 This project will supply factory_boy classes for each model Django ships.  The factories are named after the class it constructs.  For example, a factory for django.contrib.auth.models.User is available at django_factoryboy.auth.UserF.
 
-See [factory_boy][factoryboy] for detailed docs, but all fields are given default values which can be overriden by passing keyword arguments to the constructor.  For example:
+See [factory_boy][factory_boy] for detailed docs, but all fields are given default values which can be overriden by passing keyword arguments to the constructor.  For example:
 
     from django_factoryboy.auth import UserF
     user = UserF(first_name="test")
